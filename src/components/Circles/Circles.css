@@ -23,7 +23,6 @@
     margin: auto 10px;
   }
   
-  /* Another dose of dynamic className goodness is the winning ticket */
   .Circles div.selected {
     background-color: white;
     color: purple;

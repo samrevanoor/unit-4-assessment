@@ -12,8 +12,6 @@ class App extends Component {
   }
 
   handleButtonClick = (button) => {
-    const newCircle = button;
-    console.log(newCircle);
     this.setState({
       circle: button
     });

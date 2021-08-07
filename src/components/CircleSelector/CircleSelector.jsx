@@ -8,10 +8,12 @@ function CircleSelector(props) {
     <div className="CircleSelector">
       {buttons.map((button) => {
         return (
-          <button className={props.circle === button ? "selected" : ""}
-          onClick={() => props.handleButtonClick(button)}
-          key={button}
-          value={button}>
+          <button
+            className={props.circle === button ? "selected" : ""}
+            onClick={() => props.handleButtonClick(button)}
+            key={button}
+            value={button}
+          >
             {props.circle === button
               ? `CIRCLE ${button} SELECTED`
               : `SELECT CIRCLE ${button}`}

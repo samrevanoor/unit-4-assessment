@@ -8,7 +8,10 @@ function Circles(props) {
     <div className="Circles">
       {buttons.map((button) => {
         return (
-          <div className={props.circle === button ? "selected" : ""} key={button}>
+          <div
+            className={props.circle === button ? "selected" : ""}
+            key={button}
+          >
             {button}
           </div>
         );
